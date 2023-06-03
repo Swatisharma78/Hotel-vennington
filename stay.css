@@ -1,0 +1,100 @@
+ /* stay */
+ .mainstay{
+    border: 1px solid rgb(255, 255, 255);
+    height: auto;
+    background-image: url("https://i.postimg.cc/8z4mLYPX/Cream-Texture-Motivation-Phone-Wallpaper.jpg");
+   }
+   .stay{
+    /* border: 1px solid green; */
+    width: 150px;
+    margin: auto;
+    margin-top: 70px;
+    font-weight: bold;
+    text-decoration: underline;
+  font-size: 60px;
+   }
+   .sth{
+  font-weight: bold;
+  width: 200px;
+  margin: auto;
+  margin-top: 20px;
+  color: white;
+   }
+   .stpp{
+    font-weight: bold;
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+     }
+  .stp{
+  font-size: 15px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  color: white;
+  }
+   .roomtype{
+    /* border: 1px solid green; */
+    width: 250px;
+    /* margin: auto; */
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+   }
+   .card_image1{
+    height: 100px;
+   }
+   .staydiv{
+    border: 1px solid rgb(255, 255, 255);
+    width: 84%;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 0 0 5px 2px #9a9797;
+    background-color: #452b18;
+   }
+   *,
+   *::before,
+   *::after {
+     box-sizing: border-box;
+   }
+   .stayc{
+     max-width: 1200px;
+     margin: 0 auto;
+   }
+   img {
+     height: auto;
+     max-width: 100%;
+     vertical-align: middle;
+   }
+   .cards {
+     display: flex;
+     flex-wrap: wrap;
+     list-style: none;
+     margin: 0;
+     padding: 0;
+   }
+   .cards_item {
+     display: flex;
+     padding: 1rem;
+   }
+   @media (min-width: 40rem) {
+     .cards_item {
+       width: 50%;
+     }
+   }
+   @media (min-width: 56rem) {
+     .cards_item {
+       width: 33.3333%;
+     }
+   }
+   .card {
+     background-color: white;
+     border-radius: 0.25rem;
+     box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+     display: flex;
+     flex-direction: column;
+     overflow: hidden;
+   }

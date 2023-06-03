@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.title {
+  font-size: 2em;
+  color: #792f00;
+  display: block;
+}
+.sub-title {
+  font-size: 0.8em;
+  color: gray;
+  display: block;
+}
+.title:before {
+  content: " ";
+  font-family: "FontAwesome";
+  font-size: 30px;
+}
+a {
+  text-decoration: none;
+}
+.section2,
+.section3 {
+  width: 90%;
+  margin: 1% 0%;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 2px solid red; */
+}
+.section2 table,
+.section3 table {
+  width: 100%;
+}
+.section2 table td,
+.section3 table td {
+  width: 50%;
+}
+.section2 table td img,
+.section3 table td img {
+  width: 80%;
+  height: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 6px 16px -6px rgba(1, 1, 1, 0.5);
+}
+.section3 table td img {
+  float: right;
+}
+@media (max-width:720px) {
+  .section2 table td,
+  .section3 table td {
+    width: 100%;
+    display: block;
+  }
+  .section3 table td img {
+    float: none;
+    margin-top: 4%;
+  }
+  .section2 table td img,
+  .section3 table td img {
+    width: 100%;
+    height: 60%;
+  }
+}
+@media (max-width:300px) {
+  .section2,
+  .section3 {
+    font-size: 12px;
+  }
+  .section3 table td img {
+    float: none;
+    margin-top: 8%;
+  }
+}
+.meetingpara {
+  font-size: 25px;
+}
+.meetingpara1 {
+  font-size: 20px;
+}
+.meetingh1 {
+  font-size: 50px;
+}
+.meetingh2 {
+  font-size: 30px;
+}
+.mainsec {
+  border: 1px solid rgb(255, 255, 255);
+  /* background-color: rgb(255, 250, 245); */
+  background-image: url("https://i.postimg.cc/V6NWRcwL/Cream-Aesthetic-Daily-Motivation-Your-Story.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+* {
+  box-sizing: border-box;
+}
+.nav {
+  width: 100%;
+  /* background-color: #fbf3e3; */
+  display: flex;
+  align-items: center;
+  height: 120px;
+  background-image: url("https://i.postimg.cc/V6NWRcwL/Cream-Aesthetic-Daily-Motivation-Your-Story.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav>.nav-header {
+  flex: 0.95;
+  padding-left: 1rem;
+}
+
+.nav>.nav-header>.nav-title {
+  font-size: 22px;
+  color: #fff;
+}
+
+.nav>.nav-list {
+  display: flex;
+  gap: 2rem;
+}
+.nav>.nav-list>li {
+  list-style-type: none;
+}
+.nav>.nav-list>li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+}
+.nav>#nav-check {
+  display: none;
+}
+@media (max-width: 480px) {
+  .nav {
+    padding: 1rem;
+  }
+.nav>.nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 10;
+    padding-top: 0.2rem;
+  }
+  .nav>.nav-btn>label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav>.nav-btn>label>span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #452b18;
+  }
+  .nav>.nav-list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    background-color: #c28e69;
+    height: 0;
+    transition: all 0.5s ease-in;
+    top: 117px;
+    left: 0;
+    overflow: hidden;
+  }
+
+  .nav>.nav-list>li {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+
+  .nav>#nav-check:checked~.nav-list {
+    height: calc(38vh - 50px);
+  }
+}
+.logo {
+  height: 100px;
+  width: 160px;
+}
+/* homepage */
+.homepage {
+  background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url("https://i.postimg.cc/XNFyGc1j/DSC-0440.jpg");
+  width: 100%;
+  height: 700px;
+  padding-top: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.welcome {
+  font-size: 60px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap");
+html {
+  font-family: "Merriweather", serif;
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+article {
+  padding: 1rem;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+.upheading {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.downheading {
+  text-transform: capitalize;
+}
+.bigletter {
+  text-align: justify;
+  hyphens: auto;
+}
+.bigletter:first-of-type {
+  font-size: 1.1rem;
+}
+.bigletter:first-of-type:first-letter {
+  font-size: 4.2rem;
+  font-weight: bold;
+  float: left;
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding-right: 0.15rem;
+  color: white;
+  background-color: #452b18;
+  padding: 1.2rem 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.bigletter:first-of-type:first-line {
+  font-weight: bold;
+}
+
+/* stay */
+.mainstay {
+  border: 1px solid red;
+  height: auto;
+  background-image: url("https://i.postimg.cc/8z4mLYPX/Cream-Texture-Motivation-Phone-Wallpaper.jpg");
+}
+
+.stay {
+  /* border: 1px solid green; */
+  width: 100px;
+  margin: auto;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.sth {
+  font-weight: bold;
+  width: 200px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.stpp {
+  font-weight: bold;
+  width: 300px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.stp {
+  font-size: 15px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.roomtype {
+  /* border: 1px solid green; */
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.card_image1 {
+  height: 100px;
+}
+
+.staydiv {
+  border: 1px solid rgb(255, 255, 255);
+  width: 84%;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 30px;
+  box-shadow: 0 0 5px 2px #9a9797;
+  background-color: #dfdfdf;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.stayc {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* footer */
+.foot_sec {
+  width: 100%;
+}
+
+.foot_left {
+  width: 100%;
+}
+
+.foot_left img {
+  max-width: 30%;
+  margin-bottom: 20px;
+}
+
+.foot_left p {
+  font: 500 18.52px/28px "Poppins", sans-serif;
+  color: #fff;
+}
+
+.foot_rt {
+  width: 100%;
+}
+
+.foot_rt h3 {
+  font: 600 22.52px/28px "Poppins", sans-serif;
+  color: #fff;
+}
+
+.foot_rt p span {
+  display: inline-block;
+  width: 100%;
+  font: 500 18.52px/28px "Poppins", sans-serif;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.foot_rt p,
+.foot_rt p a {
+  font: 500 18.52px/28px "Poppins", sans-serif;
+  color: #c0be46;
+}
+
+.foot_top {
+  width: 100%;
+  background-color: #28170c;
+  padding: 60px 0;
+}
+
+.foot_btm {
+  width: 100%;
+  background: #000;
+  padding: 20px 0;
+}
+
+.foot_btm p {
+  font: 500 15.52px/28px "Poppins", sans-serif;
+  color: #fff;
+}
+
+.foot_btm p a {
+  color: #f2c426;
+}
+
+.carr {
+  color: white;
+}

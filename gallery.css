@@ -1,0 +1,27 @@
+.portfolio-menu{
+	text-align:center;
+}
+.portfolio-menu ul li{
+	display:inline-block;
+	margin:0;
+	list-style:none;
+	padding:10px 15px;
+	cursor:pointer;
+	-webkit-transition:all 05s ease;
+	-moz-transition:all 05s ease;
+	-ms-transition:all 05s ease;
+	-o-transition:all 05s ease;
+	transition:all .5s ease;
+}
+.portfolio-item .item{
+	float:left;
+	margin-bottom:10px;
+}
+.galleryh{
+	  width: 150px;
+	  margin: auto;
+	  margin-top: 50px;
+	  font-weight: bold;
+	  text-decoration: underline;
+	font-size: 60px;
+}
